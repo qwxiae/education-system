@@ -3,9 +3,7 @@
 # EduPlatform
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) [![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](#) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) ![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white) ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 
-## Preview
-![demo gif](assets/demo.gif)
----
+
 An online educational platform that allows instructors to create courses, lessons, and interactive assignments. Instructors have access to analytics data about course completion. Students can enroll in courses, track their progress, and complete assignments.
 
 ## Features
@@ -30,12 +28,12 @@ An online educational platform that allows instructors to create courses, lesson
 ## Tech Stack
 | Layer | Technology |
 |---|---|
-| Backend | Django 5, Gunicorn |
+| Backend | Django, Gunicorn |
 | Frontend | Django Templates, HTMX, Chart.js, CodeMirror 5 |
-| Database | PostgreSQL 14 |
-| Cache | Redis 7 |
+| Database | PostgreSQL |
+| Cache | Redis |
 | Task queue | Celery + RabbitMQ |
-| Code execution | FastAPI microservice (Python 3.11-slim) |
+| Code execution | FastAPI microservice |
 | Web server | Nginx |
 | Admin | Jazzmin + TinyMCE |
 | Containerisation | Docker, Docker Compose |
